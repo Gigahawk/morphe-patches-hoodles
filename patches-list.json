@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.47.0",
+  "version": "1.0.0-dev.1",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -912,6 +912,7 @@
       "default": true,
       "category": null,
       "dependencies": [
+        "BytecodePatch",
         "BytecodePatch"
       ],
       "compatiblePackages": [
@@ -2049,6 +2050,35 @@
           "targets": [
             {
               "version": "5.20.57.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock Premium",
+      "description": "Unlock app features. Requirements: arm64-v8a, strict apk version",
+      "default": true,
+      "category": null,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.thefloatlife.FloatHub",
+          "name": "Float Hub",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.5.0",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
