@@ -88,6 +88,12 @@ object Compat {
         targets = listOf(AppTarget("4.12.19"))
     )
 
+    val FLOAT_HUB = Compatibility(
+        name = "Float Hub",
+        packageName = "com.thefloatlife.FloatHub",
+        targets = listOf(AppTarget("1.5.0"))
+    )
+
     val FOTMOB = Compatibility(
         name = "FotMob",
         packageName = "com.mobilefootie.wc2010",
